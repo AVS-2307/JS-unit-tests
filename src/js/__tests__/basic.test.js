@@ -20,4 +20,3 @@ test('Hero critical', () => {
   const result = hero(arr);
   expect(result).toEqual('critical');
 });
-
