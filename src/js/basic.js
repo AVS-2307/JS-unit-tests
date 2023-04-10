@@ -6,14 +6,12 @@
   return result;
 } */
 
-export default function hero(name, health) {
-  if (health >= 50) {
+export default function hero(arr) {
+  if (arr.health >= 50) {
     return 'healthy';
   }
-  if (health >= 15 && health < 50) {
+  if (arr.health >= 15 && arr.health < 50) {
     return 'wounded';
   }
   return 'critical';
 }
-
-hero();
